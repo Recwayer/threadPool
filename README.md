@@ -11,8 +11,8 @@
     - Round Robin
     - Least Loaded
 - Реализовать **политику отказа** при переполнении очередей:
-    - AbortPolicy - отклонение задачи с исключением
-    - CallerRunsPolicy - выполнение задачи в вызывающем потоке
+    - AbortPolicy
+    - CallerRunsPolicy
 - Вести подробное логирование всех ключевых событий.
 - Использовать интерфейс `CustomExecutor`, что позволяет работать с `Runnable` и `Callable`.
 
